@@ -9,7 +9,7 @@ jobs:
   lighthouse:
     name: Lighthouse
     runs-on: ubuntu-22.04
-      steps:
+    steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
@@ -46,7 +46,7 @@ jobs:
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/html-css/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
-          nodechecker:
+  nodechecker:
     name: node_modules checker
     runs-on: ubuntu-22.04
     steps:
