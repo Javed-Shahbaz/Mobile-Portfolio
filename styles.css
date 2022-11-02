@@ -1,0 +1,11 @@
+/* Shape */
+
+
+position: absolute;
+width: 74px;
+height: 74px;
+right: 246px;
+top: 0px;
+
+background: linear-gradient(0deg, #FEC25A, #FEC25A), url(Image.png), #98DEDE;
+background-blend-mode: normal, overlay, normal;
