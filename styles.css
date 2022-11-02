@@ -9,3 +9,62 @@ top: 0px;
 
 background: linear-gradient(0deg, #FEC25A, #FEC25A), url(Image.png), #98DEDE;
 background-blend-mode: normal, overlay, normal;
+
+/* Shape */
+
+
+position: absolute;
+width: 74px;
+height: 74px;
+right: 209px;
+top: 0px;
+
+background: linear-gradient(0deg, #E35461, #E35461), url(Image.png), #E45865;
+background-blend-mode: normal, overlay, normal;
+
+/* Charlie Giorgania */
+
+
+position: absolute;
+width: 220px;
+height: 100px;
+left: 16px;
+top: 104px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+/* or 50px */
+
+color: #1A2236;
+
+/* Paragraph*/
+position: absolute;
+width: 288px;
+height: 126px;
+left: 16px;
+top: 224px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: -0.01em;
+
+color: #1A2236;
+
+/* Rectangle 20 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 288px;
+height: 50px;
+left: 16px;
+top: 390px;
+
+background: #1A2236;
