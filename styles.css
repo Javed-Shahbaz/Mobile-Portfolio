@@ -60,5 +60,12 @@ body {
     background: #07080e;
     border: #eff5f0 1px;
   }
-  
+
+.cButton {
+  font-size: 100;
+}
+.rec {
+  margin-top: 18px;
+}
+
  
