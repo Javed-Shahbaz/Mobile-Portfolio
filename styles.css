@@ -11,7 +11,8 @@ body {
     justify-content: space-between;
     width: 320px;
     height: 74px;
-  }
+    background-color: #FFFFFF;
+  } 
   
   nav {
     display: flex;
@@ -22,7 +23,7 @@ body {
   
   main {
     width: 100%;
-    background: #e9e8ed;
+    background: #FFFFFF;
     padding: 20px;
     display: flex;
     flex-flow: column wrap;
@@ -31,3 +32,33 @@ body {
     align-content: center;
     height: 300px;
   }
+  
+  .intro {
+    background: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+  
+  .paragraph {
+    background: none;
+    font-size: 14px;
+    font: Arial bold;
+    color: #1A2236;
+    
+
+  }
+  
+  .cButton {
+    color: #56c48f;
+    text-align: center;
+    align-items: center;
+    width: 288px;
+    height: 50px;
+    left: 16px;
+    top: 390px;
+    margin: 0 auto;
+    background: #07080e;
+    border: #eff5f0 1px;
+  }
+  
+ 
