@@ -1,3 +1,11 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+html {
+  height: 4910px;
+  width: 320px;
+  left: 6158px;
+  top: -2164px;
+}
+
 body {
   background: #e9e8ed;
   display: flex;
@@ -65,4 +73,8 @@ main {
 
 .rec {
   margin-top: 18px;
+}
+
+img {
+  background-color: #fff;
 }
