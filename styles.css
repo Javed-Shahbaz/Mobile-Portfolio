@@ -4,6 +4,7 @@ html {
   width: 320px;
   left: 6158px;
   top: -2164px;
+  background: #fff;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 320px;
+  width: 310px;
 }
 
 header {
@@ -20,13 +21,15 @@ header {
   width: 320px;
   height: 74px;
   background-color: #fff;
+  padding: top;
 }
 
 nav {
   display: flex;
   text-align: right;
-  font-size: 60px;
+  font-size: 40px;
   justify-content: end;
+  padding-right: 20px;
 }
 
 main {
@@ -43,8 +46,8 @@ main {
 
 .intro {
   background: none;
-  font-family: Poppins, sans-serif;
-  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
 }
 
 .paragraph {
@@ -55,26 +58,37 @@ main {
 }
 
 .cButton {
-  color: #56c48f;
+  color: rgba(26, 34, 54, 1);
   text-align: center;
   align-items: center;
   width: 288px;
   height: 50px;
-  left: 16px;
   top: 390px;
+  padding-top: 20px;
   margin: 0 auto;
-  background: #07080e;
-  border: #eff5f0 1px;
+  background: rgba(26, 34, 54, 1);
 }
 
 .Button {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .rec {
   margin-top: 18px;
+  background-color: #07080e;
+  width: 288px;
+  height: 50px;
+  box-sizing: border-box;
 }
 
-img {
-  background-color: #fff;
+.image {
+  position: absolute;
+  width: 300px;
+  height: 160px;
+  left: 1px;
+  top: 472px;
+  padding-right: 20px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background: none;
 }
