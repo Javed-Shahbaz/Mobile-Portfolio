@@ -45,7 +45,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello World <a name="about-project"></a>
+# 📖 Mobile Portfolio <a name="about-project"></a>
 
 > This is my Poerfolio project from Microverse and its the first step to have our own portfolio.
 
