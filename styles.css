@@ -1,24 +1,19 @@
 /* stylelint-disable no-missing-end-of-source-newline */
 html {
-  height: 4910px;
-  width: 320px;
-  left: 6158px;
-  top: -2164px;
   background: #fff;
 }
-
 body {
-  background: #e9e8ed;
+  background: #fff;
   display: flex;
   flex-flow: row wrap;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 310px;
+  width: 100%;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  width: 320px;
+  width: 100%;
   height: 74px;
   background-color: #fff;
   padding: top;
@@ -54,15 +49,15 @@ main {
   background: none;
   font-size: 14px;
   font-family: Poppins, sans-serif;
-  color: #1a2236;
+  color: black;
 }
 
 .cButton {
   color: rgba(26, 34, 54, 1);
   text-align: center;
   align-items: center;
-  width: 310px;
-  height: 50px;
+  width: 320px;
+  height: 45px;
   top: 390px;
   padding-top: 20px;
   margin: 0 auto;
@@ -73,22 +68,12 @@ main {
   font-size: 40px;
 }
 
-.rec {
-  margin-top: 18px;
-  background-color: #07080e;
-  width: 288px;
-  height: 50px;
-  box-sizing: border-box;
-}
-
 .image {
   position: absolute;
-  width: 300px;
+  width: 100%;
   height: 160px;
   left: 1px;
   top: 472px;
-  padding-right: 20px;
-  margin-top: 45px;
-  margin-bottom: 45px;
   background: #fff;
+  margin: 45px auto;
 }
