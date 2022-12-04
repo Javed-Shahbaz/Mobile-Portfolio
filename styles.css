@@ -247,9 +247,9 @@ h3 {
   flex-direction: column;
   justify-content: center;
   padding: 0;
-  padding-left: 50px;
-  width: 289px;
-  height: 289px;
+  padding-left: 35px;
+  width: 215px;
+  height: 210px;
 }
 
 .languages {
@@ -258,7 +258,7 @@ h3 {
   margin-top: 0;
 }
 
-.frameworks {
+.framework {
   background-image: url(images/red.png);
   background-size: contain;
   margin-top: 0;
@@ -288,7 +288,7 @@ button {
 }
 
 button:hover {
-  background: rgba(255, 72, 0, 0.945);
-  border-color: rgba(255, 72, 0, 0.945);
+  background: #1a2236;
+  border-color: black;
   border-width: 0.3rem;
 }
