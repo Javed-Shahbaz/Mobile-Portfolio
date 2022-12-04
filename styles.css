@@ -247,9 +247,9 @@ h3 {
   flex-direction: column;
   justify-content: center;
   padding: 0;
-  padding-left: 50px;
-  width: 289px;
-  height: 289px;
+  padding-left: 35px;
+  width: 215px;
+  height: 200px;
 }
 
 .languages {
