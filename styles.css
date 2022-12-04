@@ -288,7 +288,7 @@ button {
 }
 
 button:hover {
-  background: rgba(255, 72, 0, 0.945);
-  border-color: rgba(255, 72, 0, 0.945);
+  background: #1a2236;
+  border-color: black;
   border-width: 0.3rem;
 }
