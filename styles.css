@@ -292,3 +292,129 @@ button:hover {
   border-color: black;
   border-width: 0.3rem;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background: #f9f9fa;
+  background-image: url(images/image_geometry_1.png);
+  background-repeat: no-repeat;
+  padding: 1px;
+}
+
+.gap {
+  height: 106px;
+
+  /* border: #1a2236 dotted 1px; */
+}
+
+.c-form {
+  width: 320px;
+
+  /* border: #1a2236 dotted 1px; */
+  align-self: center;
+}
+
+.f-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getStart {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 50px;
+  padding-right: 60px;
+}
+
+.f-name {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfdfe0;
+  height: 46px;
+  margin: 8px 18px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  padding-left: 16px;
+  padding-top: 4px;
+  color: darkgray;
+}
+
+/* hover effect for input field */
+.f-name:hover {
+  border: 1px solid black;
+}
+
+.form-name-content {
+  border: none;
+  background: #fff;
+}
+
+.form-name-contend:active {
+  border: white;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #dfdfe0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: 8px 18px;
+  height: 90px;
+  min-width: 89%;
+  max-width: 400px;
+  padding-left: 16px;
+  padding-top: 8px;
+}
+
+label {
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+}
+
+.contenfooter {
+  background: #1a2236;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  border: transparent;
+  color: #92dcdc;
+  flex-grow: 2;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.rsFooter {
+  align-self: center;
+  background: #1a2236;
+  width: 100vw;
+  max-width: 320px;
+  padding: 20px 30px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rrss {
+  background-color: transparent;
+  list-style: none;
+  transition-duration: 1.7s;
+  cursor: pointer;
+}
+
+.rrss:hover {
+  zoom: 1.15;
+}
