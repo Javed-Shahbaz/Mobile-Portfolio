@@ -309,7 +309,7 @@ button:hover {
 }
 
 .c-form {
-  width: 320px;
+  width: 100%;
 
   /* border: #1a2236 dotted 1px; */
   align-self: center;
@@ -318,14 +318,13 @@ button:hover {
 .f-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
 }
 
 .getStart {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 50px;
-  padding-right: 60px;
 }
 
 .f-name {
@@ -353,7 +352,7 @@ button:hover {
   background: #fff;
 }
 
-.form-name-contend:active {
+.form-name-content:active {
   border: white;
 }
 
@@ -380,12 +379,24 @@ label {
   background: #fff;
 }
 
-.contenfooter {
+.cfooter {
   background: #1a2236;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+.textAbout {
+  height: fit-content;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+  padding: 18px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .resume {
@@ -402,8 +413,8 @@ label {
   align-self: center;
   background: #1a2236;
   width: 100vw;
-  max-width: 320px;
-  padding: 20px 30px 30px 30px;
+  max-width: 100%;
+  padding: 20px 30px 30px;
   display: flex;
   justify-content: space-between;
 }
