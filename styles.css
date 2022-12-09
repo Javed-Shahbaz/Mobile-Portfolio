@@ -429,6 +429,7 @@ label {
 .rrss:hover {
   zoom: 1.15;
 }
+
 @media only screen and (min-width: 768px) {
   /* Header change nav */
 
