@@ -490,7 +490,7 @@ label {
     display: flex;
     flex-direction: column;
     padding-left: 8em;
-    background-image: url(images/project/image_dots.png);
+    background-image: url(images/image_dots.png);
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: bottom right;
@@ -535,7 +535,7 @@ label {
 
   /* project section descktop */
 
-  .projects {
+  .Projects {
     display: flex;
     max-width: 1280px;
     margin: 17vh auto;
@@ -590,7 +590,7 @@ label {
   .caja1-1 {
     grid-column: 1;
     grid-row: 1;
-    background-image: url(images/project/image_dots.png);
+    background-image: url(images/image_dots.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 25%;
@@ -638,7 +638,7 @@ label {
   .card4 {
     grid-column: 2 / 4;
     grid-row: 2 / 4;
-    background-image: url(images/project/image-geometry_2.png);
+    background-image: url(images/image-geometry_2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -678,7 +678,7 @@ label {
   .card7 {
     grid-column: 3 / 5;
     grid-row: 5 / 6;
-    background-image: url(images/project/image-geometry_3.png);
+    background-image: url(images/image-geometry_3.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -688,8 +688,8 @@ label {
     grid-column: 1 / 3;
     grid-row: 6;
     background-image:
-      url(images/project/image-geometry_4.png),
-      url(images/project/image-geometry_5.png);
+      url(images/image-geometry_4.png),
+      url(images/image-geometry_5.png);
     background-repeat: no-repeat;
     background-position: top right, top left;
     zoom: 110%;
@@ -705,18 +705,18 @@ label {
     width: 70%;
   }
 
-  .card9 .pData {
+  .card9 .P-Data {
     width: 70%;
   }
 
-  .card:hover .pData {
+  .Cards:hover .P-Data {
     visibility: visible;
     opacity: 100%;
   }
 
   /* about responsive */
 
-  .about {
+  .About {
     max-width: 1280px;
     margin: 0 auto;
     zoom: 70%;
@@ -755,7 +755,7 @@ label {
 
   .image-about {
     display: block;
-    background-image: url("./images/lfs/about/image_dots_with_teal.png");
+    background-image: url("./images/image_dots_with_teal.png");
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -880,13 +880,13 @@ label {
     border: 0 solid black;
   }
 
-  .f-name-contend:hover {
+  .f-name-content:hover {
     border: #1a2236 2px solid;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .about {
+  .About {
     zoom: 100%;
   }
 
@@ -895,7 +895,7 @@ label {
     align-items: center;
   }
 
-  .card .P-Data {
+  .Cards .P-Data {
     zoom: 1.4;
   }
 
