@@ -282,7 +282,7 @@ h4 {
 }
 
 button {
-  transition-duration: 0.5s;
+  transition-duration: 0.7s;
   cursor: pointer;
 }
 
@@ -421,7 +421,7 @@ label {
 .rrss {
   background-color: transparent;
   list-style: none;
-  transition-duration: 1.7s;
+  transition-duration: 1.5s;
   cursor: pointer;
 }
 
